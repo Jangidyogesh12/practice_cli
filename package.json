@@ -1,19 +1,23 @@
 {
-  "name": "typescript-cli",
+  "name": "practice_cli",
   "bin": {
-    "pracice": ".dist/index.js"
+    "practice_cli": ".dist/index.js"
   },
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "A practical TypeScript CLI tool",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["cli", "typescript", "practice"],
+  "author": "Yogesh Sharma",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/your-repo.git"
+  },
   "devDependencies": {
     "@types/node": "^25.2.3",
     "typescript": "^5.9.3"
