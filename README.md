@@ -41,6 +41,21 @@ chmod +x .dist/index.js
 sudo cp .dist/index.js /usr/local/bin/practice_cli
 ```
 
+## Uninstallation
+
+To uninstall `practice_cli`, use the uninstall script:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Jangidyogesh12/practice_cli/main/uninstall.sh | bash
+```
+
+Or manually remove:
+
+```bash
+sudo rm /usr/local/bin/practice_cli
+sudo rm -rf /usr/local/share/practice_cli
+```
+
 ## Usage
 
 After installation, you can use `practice_cli` from anywhere:
